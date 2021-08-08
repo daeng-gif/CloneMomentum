@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden{
+    display: none;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'IM_Hyemin-Bold';
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgImageCss{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.5;
+}
+
+#clock{
+    font-size: 10rem;
+}
+
+#todo-list{
+    list-style: none;
+}
+
+#todo-list li{
+    display: flex;
+    margin-bottom: 1rem;
+}
+#todo-list li span{
+    flex: 1;
+}
+
+#quote{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
